@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Media Library">b95474af6f1bf600952b107abb3ee4d3</application>
+        <filter/>
+        <name>Media</name>
+        <order>100</order>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_95369_media_libr.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>jackie.gao</sys_created_by>
+        <sys_created_on>2017-06-17 20:14:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>315474af6f1bf600952b107abb3ee4d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Media</sys_name>
+        <sys_package display_value="Media Library" source="x_95369_media_libr">78f3742b6f1bf600952b107abb3ee4dd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Media Library">78f3742b6f1bf600952b107abb3ee4dd</sys_scope>
+        <sys_update_name>sys_ui_module_315474af6f1bf600952b107abb3ee4d6</sys_update_name>
+        <sys_updated_by>jackie.gao</sys_updated_by>
+        <sys_updated_on>2017-06-17 21:54:11</sys_updated_on>
+        <table>x_95369_media_libr_media</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

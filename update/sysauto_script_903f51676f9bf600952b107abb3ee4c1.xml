@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Check for Loans that are due within a day</name>
+        <run_as display_value="Jackie Gao">63c874d26f303200952b107abb3ee43a</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-06-17 23:21:24</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[(function checkForDueLoans() { 
+	var gr = new GlideRecord('x_snc_media_librar_loan'); 
+	gr.addActiveQuery(); 
+	gr.addEncodedQuery('due_date<=javascript:gs.daysAgoEnd(-1)'); 
+	gr.query(); 
+	
+	while (gr.next()) { 
+		gs.eventQueue('x_snc_media_librar.loan_due', gr); 
+	} 
+})();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>jackie.gao</sys_created_by>
+        <sys_created_on>2017-06-17 23:24:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>903f51676f9bf600952b107abb3ee4c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check for Loans that are due within a day</sys_name>
+        <sys_package display_value="Media Library" source="x_95369_media_libr">78f3742b6f1bf600952b107abb3ee4dd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Media Library">78f3742b6f1bf600952b107abb3ee4dd</sys_scope>
+        <sys_update_name>sysauto_script_903f51676f9bf600952b107abb3ee4c1</sys_update_name>
+        <sys_updated_by>jackie.gao</sys_updated_by>
+        <sys_updated_on>2017-06-17 23:24:42</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

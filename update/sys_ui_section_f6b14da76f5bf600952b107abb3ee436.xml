@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="f6b14da76f5bf600952b107abb3ee436" sys_domain="global" table="x_95369_media_libr_media" version="3" view="Mobile">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>0</position>
+            <sys_created_by>jackie.gao</sys_created_by>
+            <sys_created_on>2017-06-17 21:12:41</sys_created_on>
+            <sys_id>b6b14da76f5bf600952b107abb3ee438</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95369_media_libr_media" sys_domain="global" view="2da21630c4212200a21c0beaf2e293a4">f6b14da76f5bf600952b107abb3ee436</sys_ui_section>
+            <sys_updated_by>jackie.gao</sys_updated_by>
+            <sys_updated_on>2017-06-17 21:12:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>1</position>
+            <sys_created_by>jackie.gao</sys_created_by>
+            <sys_created_on>2017-06-17 21:12:41</sys_created_on>
+            <sys_id>3ab14da76f5bf600952b107abb3ee438</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95369_media_libr_media" sys_domain="global" view="2da21630c4212200a21c0beaf2e293a4">f6b14da76f5bf600952b107abb3ee436</sys_ui_section>
+            <sys_updated_by>jackie.gao</sys_updated_by>
+            <sys_updated_on>2017-06-17 21:12:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>creator</element>
+            <position>2</position>
+            <sys_created_by>jackie.gao</sys_created_by>
+            <sys_created_on>2017-06-17 21:12:41</sys_created_on>
+            <sys_id>bab14da76f5bf600952b107abb3ee438</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95369_media_libr_media" sys_domain="global" view="2da21630c4212200a21c0beaf2e293a4">f6b14da76f5bf600952b107abb3ee436</sys_ui_section>
+            <sys_updated_by>jackie.gao</sys_updated_by>
+            <sys_updated_on>2017-06-17 21:12:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_95369_media_libr_media</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jackie.gao</sys_created_by>
+            <sys_created_on>2017-06-17 21:12:41</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6b14da76f5bf600952b107abb3ee436</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_95369_media_libr_media</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Media Library" source="x_95369_media_libr">78f3742b6f1bf600952b107abb3ee4dd</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Media Library">78f3742b6f1bf600952b107abb3ee4dd</sys_scope>
+            <sys_update_name>sys_ui_section_f6b14da76f5bf600952b107abb3ee436</sys_update_name>
+            <sys_updated_by>jackie.gao</sys_updated_by>
+            <sys_updated_on>2017-06-17 21:12:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Mobile" name="Mobile">2da21630c4212200a21c0beaf2e293a4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

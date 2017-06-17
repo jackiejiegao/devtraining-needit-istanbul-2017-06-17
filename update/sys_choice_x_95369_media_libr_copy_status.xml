@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_95369_media_libr_copy" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>x_95369_media_libr_copy</name>
+            <sequence/>
+            <sys_created_by>jackie.gao</sys_created_by>
+            <sys_created_on>2017-06-17 20:46:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7bbb8636f5bf600952b107abb3ee418</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jackie.gao</sys_updated_by>
+            <sys_updated_on>2017-06-17 20:47:07</sys_updated_on>
+            <value>Available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loaned</label>
+            <language>en</language>
+            <name>x_95369_media_libr_copy</name>
+            <sequence/>
+            <sys_created_by>jackie.gao</sys_created_by>
+            <sys_created_on>2017-06-17 20:47:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6eb74a36f5bf600952b107abb3ee461</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jackie.gao</sys_updated_by>
+            <sys_updated_on>2017-06-17 20:47:29</sys_updated_on>
+            <value>Loaned</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_95369_media_libr_copy</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jackie.gao</sys_created_by>
+            <sys_created_on>2017-06-17 20:46:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>efbbb8636f5bf600952b107abb3ee418</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Media Library" source="x_95369_media_libr">78f3742b6f1bf600952b107abb3ee4dd</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Media Library">78f3742b6f1bf600952b107abb3ee4dd</sys_scope>
+            <sys_update_name>sys_choice_x_95369_media_libr_copy_status</sys_update_name>
+            <sys_updated_by>jackie.gao</sys_updated_by>
+            <sys_updated_on>2017-06-17 20:47:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
